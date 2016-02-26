@@ -10,7 +10,7 @@ sudo pip install numpy scipy Cython
 sudo ln -s /usr/local/lib/python2.7/dist-packages/numpy /usr/lib/python2.7/dist-packages/numpy
 sudo pip install scikit-image scikit-learn 
 sudo pip install matplotlib 
-sudo pip install pyopencv
+#sudo pip install pyopencv
 sudo pip install ipython jupyter
 sudo pip install h5py leveldb lmdb protobuf 
 sudo pip install networkx nose 
