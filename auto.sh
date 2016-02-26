@@ -3,13 +3,11 @@ sudo apt-get update
 sudo apt-get install git libboost-all-dev libprotobuf-dev \
 libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev \
 protobuf-compiler libgflags-dev libgoogle-glog-dev liblmdb-dev \
+python-pip clang liblapack-dev libatlas-base-dev libblas-dev gfortran
 
 echo 'install python-dependencies...'
-python-pip clang liblapack-dev libatlas-base-dev libblas-dev gfortran
 sudo pip install numpy scipy Cython 
-
 sudo ln -s /usr/local/lib/python2.7/dist-packages/numpy /usr/lib/python2.7/dist-packages/numpy
-
 sudo pip install scikit-image scikit-learn 
 sudo pip install matplotlib 
 sudo pip install pyopencv
