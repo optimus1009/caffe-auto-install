@@ -18,7 +18,7 @@ sudo pip install pandas
 sudo pip install python-dateutil  
 sudo pip install python-gflags pyyaml Pillow six pyzmq singledispatch
 sudo pip install backports_abc certifi jsonschema graphviz  qtawesome pydot
-
+sudo apt-get install graphviz
 echo 'checkout caffe source code and build..'
 cd ~/
 git clone https://github.com/BVLC/caffe
